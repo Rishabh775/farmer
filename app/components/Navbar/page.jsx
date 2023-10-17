@@ -1,10 +1,15 @@
 import React from "react";
+import logo from "@/public/logo.png";
+import Image from "next/image";
 
 export default function page() {
   return (
     <div className=" ">
       <div className=" flex justify-between items-center px-20 py-6">
-        <h1 className=" font-black text-4xl">Suvidha</h1>
+        <div className=" flex items-center gap-1">
+          <Image src={logo} className=" h-full w-full" alt="logo" />
+          <h1 className=" font-black text-4xl">Suvidha</h1>
+        </div>
         <ul className=" flex gap-6 uppercase text-xl">
           <li>Home</li>
           <li>Services</li>
