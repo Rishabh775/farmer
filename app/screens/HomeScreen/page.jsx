@@ -40,7 +40,7 @@ export default function page() {
           </ul>
         </div>
         <div className=" flex justify-center items-center">
-          <Image src={mock} className=" w-full h-fit" />
+          <Image src={mock} alt="mockup" className=" w-full h-fit" />
         </div>
       </section>
       <section className=" py-10">
@@ -67,7 +67,7 @@ export default function page() {
           <div className="flex flex-col justify-center items-center">
             <Image src={avg} alt="services" className=" h-[300px] w-fit" />
             <h4 className=" text-3xl font-bold">INR 10,218</h4>
-            <p className=" text-xl">Farmer's Average Monthly Income</p>
+            <p className=" text-xl">Farmer&apos;s Average Monthly Income</p>
           </div>
           <div className="flex flex-col justify-center items-center">
             <Image src={equip} alt="services" className=" h-[300px] w-fit" />
