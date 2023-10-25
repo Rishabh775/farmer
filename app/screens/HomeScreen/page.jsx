@@ -79,7 +79,7 @@ export default function page() {
       <footer className="py-10 bg-gray-700">
         <div className=" flex justify-center">
           <span className="text-white">
-            Copyright © 2021 - All Rights Reserved | Developed By Amitesh
+            Copyright © 2021 - All Rights Reserved 
           </span>
         </div>
       </footer>
